@@ -173,7 +173,6 @@ def home():
             sidebar.classList.toggle('hidden');
         }
         function showDropBoxPDF() {
-            alert("Line 176")
             window.open("https://www.dropbox.com/scl/fi/xjx7gda2pij7qocb3bz98/Early_Childhood_Gideon_Week_4.pdf?rlkey=i147g7ztrgut8d4b9l1o3zkbv&st=t0srh2tn&dl=0", "_blank");
         }
     </script>

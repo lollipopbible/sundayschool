@@ -137,7 +137,7 @@ def home():
             <a href="#" onclick="showVideo('https://www.youtube.com/embed/fZCY4xmRR1U')">Watch Bible Video</a><br>
             <a href="#" onclick="showPDF('/pdf/Early_Childhood_Gideon_Week_4.pdf')">Open PDF Lesson</a><br>
             <h4>Roles</h4>
-            <a href="#" onclick="showDropBoxPDF()">Teacher</a><br>
+            <a onclick="showDropBoxPDF()">Teacher</a><br>
             <a href="#">Parent Helper</a><br>
             <a href="#">Event Organizer</a><br>          
             <a href="#">Add Roles</a><br>
@@ -172,7 +172,8 @@ def home():
             const sidebar = document.getElementById('sidebar');
             sidebar.classList.toggle('hidden');
         }
-        function showDropboxPDF() {
+        function showDropBoxPDF() {
+            alert("Line 176")
             window.open("https://www.dropbox.com/scl/fi/xjx7gda2pij7qocb3bz98/Early_Childhood_Gideon_Week_4.pdf?rlkey=i147g7ztrgut8d4b9l1o3zkbv&st=t0srh2tn&dl=0", "_blank");
         }
     </script>

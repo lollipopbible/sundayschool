@@ -133,22 +133,15 @@ def home():
     </div>
     <div class="container">
         <div class="left-section" id="sidebar">
-            <h4>Getting Started</h4>
-            <a href="#" onclick="showVideo('https://www.youtube.com/embed/fZCY4xmRR1U')">Watch Bible Video</a><br>
-            <a href="#" onclick="showPDF('/pdf/EC_Gladiator_Week_1.01.pdf')">Open PDF Lesson</a><br>
+            <h4>Lesson</h4>
+            <a href="#" onclick="showVideo('https://www.youtube.com/embed/YhAH2zU8UiU')">I Wont Be Afraid</a><br>
+           <a href="#" onclick="showVideo('https://www.youtube.com/embed/6FOLl7AGRoI')">Big and Strong</a><br>
+              <a href="#" onclick="showPDF('/pdf/EC_Gladiator_Week_1.01.pdf')">Lesson</a><br>
             <h4>Roles</h4>
-            <a onclick="showDropBoxPDF()">Teacher</a><br>
-            <a href="#">Parent Helper</a><br>
-            <a href="#">Event Organizer</a><br>          
-            <a href="#">Add Roles</a><br>
             <h4>Activities</h4>
-            <a href="#">Story Time</a><br>
-            <a href="#">Crafts</a><br>
-            <a href="#">Bible Quiz</a><br>
-            <a href="#">Add Activity</a><br>
         </div>
         <div class="main-section" id="main-section">
-            <iframe src="https://www.youtube.com/embed/fZCY4xmRR1U" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/6FOLl7AGRoI" allowfullscreen></iframe>
         </div>
     </div>
     <div class="bottom-bar">

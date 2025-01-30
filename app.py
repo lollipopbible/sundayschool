@@ -148,6 +148,7 @@ def home():
         <input type="text" id="command-input" placeholder="Type your command here...">
         <button onclick="alert('Command sent!')">Send</button>
     </div>
+    <br><br><br><br><br><br><br>
     <script>
         function showVideo(url) {
             document.getElementById('main-section').innerHTML = `

@@ -135,7 +135,7 @@ def home():
         <div class="left-section" id="sidebar">
             <h4>Getting Started</h4>
             <a href="#" onclick="showVideo('https://www.youtube.com/embed/fZCY4xmRR1U')">Watch Bible Video</a><br>
-            <a href="#" onclick="showPDF('/pdf/Early_Childhood_Gideon_Week_4.pdf')">Open PDF Lesson</a><br>
+            <a href="#" onclick="showPDF('/pdf/EC_Gladiator_Week_1.01.pdf')">Open PDF Lesson</a><br>
             <h4>Roles</h4>
             <a onclick="showDropBoxPDF()">Teacher</a><br>
             <a href="#">Parent Helper</a><br>
@@ -173,7 +173,7 @@ def home():
             sidebar.classList.toggle('hidden');
         }
         function showDropBoxPDF() {
-            window.open("https://www.dropbox.com/scl/fi/xjx7gda2pij7qocb3bz98/Early_Childhood_Gideon_Week_4.pdf?rlkey=i147g7ztrgut8d4b9l1o3zkbv&st=t0srh2tn&dl=0", "_blank");
+            window.open("https://www.dropbox.com/scl/fi/1mhysp6mvbfj6dmrd72lk/EC_Gladiator_Week_1.01.pdf?rlkey=tkoi5z4tghiywcur1zedhllav&st=8fwxplee&dl=0", "_blank");
         }
     </script>
 </body>
